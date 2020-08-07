@@ -1,0 +1,66 @@
+@import '../../../styles/variables.scss';
+
+
+.textarea {
+    height: 80px; 
+    resize: none;
+}
+
+area {
+    display: flex;
+    height: 80px; 
+}
+
+.form__label-area {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    margin-left: 1rem;
+    margin-top: 1.4rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(-8.3rem);
+}
+
+.form__input:placeholder-shown + .form__label-area {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
+
+  @media (min-width: $tablet-width) {
+    .textarea {
+        height: 80px; 
+        resize: none;
+    }
+    
+    area {
+        display: flex;
+        height: 80px; 
+    }
+    
+    .form__label-area {
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        margin-left: 1.8rem;
+        margin-top: 0.8rem;
+        display: block;
+        transition: all 0.3s;
+        transform: translateY(-8.2rem);
+    }
+
+
+}
+
+@media (min-width: $desktop-width) {
+
+    .form__label-area {
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        margin-left: 1.8rem;
+        margin-top: 0.7rem;
+        display: block;
+        transition: all 0.3s;
+        transform: translateY(-8.2rem);
+    }
+}

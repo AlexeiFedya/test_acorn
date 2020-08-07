@@ -1,0 +1,55 @@
+@import '../../../styles/variables.scss';
+
+// .main-table {
+//     display: flex;
+//     flex-direction: column;
+//     margin: 0 auto;
+// }
+
+.wrap-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-spacing: 3px;
+    border-collapse: collapse;
+}
+ 
+td, th{
+    border: solid 1px #ccc;
+    padding: 4px;
+    font-size: 8px;
+}
+
+th {
+    font-weight: 700;
+}
+
+td {
+    font-weight: 200;
+    opacity: 0.9;
+}
+
+.collapsed{
+    border-collapse: collapse;
+}
+.separated{
+    border-collapse: separate;
+}
+
+@media (min-width: $tablet-width) {
+    td, th{
+        border: solid 1px #ccc;
+        padding: 6px;
+        font-size: 13px;
+    }
+    
+    table {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+}
+

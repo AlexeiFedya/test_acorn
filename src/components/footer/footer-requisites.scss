@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+
+.footer_requisites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.footer__li_footer_requisites {
+    display: flex;
+    margin: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+
+.footer__li_footer_requisites a {
+    color: white;
+    font-size: 7px;
+    margin: 0;
+}
+
+.footer__li_footer_requisites p {
+    color: white;
+    font-size: 7px;
+    opacity: 0.7;
+    margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+    .footer_requisites{
+        margin-bottom: 10px;
+    }
+    .footer__li_footer_requisites a {
+        font-size: 9px;
+    }
+    .footer__li_footer_requisites p {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .footer_requisites{
+        margin-bottom: 10px;
+    }
+    .footer__li_footer_requisites a {
+        font-size: 10px;
+
+    }
+    .footer__li_footer_requisites p {
+        font-size: 10px;
+    }
+}
