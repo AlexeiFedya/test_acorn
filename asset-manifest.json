@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/test_acorn/static/css/main.5cfeaf05.chunk.css",
+    "main.js": "/test_acorn/static/js/main.64ab4be6.chunk.js",
+    "main.js.map": "/test_acorn/static/js/main.64ab4be6.chunk.js.map",
+    "runtime-main.js": "/test_acorn/static/js/runtime-main.9c62fe3a.js",
+    "runtime-main.js.map": "/test_acorn/static/js/runtime-main.9c62fe3a.js.map",
+    "static/js/2.c057e039.chunk.js": "/test_acorn/static/js/2.c057e039.chunk.js",
+    "static/js/2.c057e039.chunk.js.map": "/test_acorn/static/js/2.c057e039.chunk.js.map",
+    "index.html": "/test_acorn/index.html",
+    "precache-manifest.3be616c230262d23d1750e0d8d8530dc.js": "/test_acorn/precache-manifest.3be616c230262d23d1750e0d8d8530dc.js",
+    "service-worker.js": "/test_acorn/service-worker.js",
+    "static/css/main.5cfeaf05.chunk.css.map": "/test_acorn/static/css/main.5cfeaf05.chunk.css.map",
+    "static/js/2.c057e039.chunk.js.LICENSE.txt": "/test_acorn/static/js/2.c057e039.chunk.js.LICENSE.txt",
+    "static/media/logotype2.png": "/test_acorn/static/media/logotype2.8ee0d8c6.png",
+    "static/media/maestro-symbol.svg": "/test_acorn/static/media/maestro-symbol.53e4c3b5.svg",
+    "static/media/mastercard-symbol.svg": "/test_acorn/static/media/mastercard-symbol.543bc93b.svg",
+    "static/media/visa.svg": "/test_acorn/static/media/visa.c1531c60.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c62fe3a.js",
+    "static/js/2.c057e039.chunk.js",
+    "static/css/main.5cfeaf05.chunk.css",
+    "static/js/main.64ab4be6.chunk.js"
+  ]
+}
